@@ -26,4 +26,4 @@ A SQL Server always on listener is created using the internal load balancer.
 
 +	To successfully deploy this template, be sure that the subnet to which the SQL VMs are being deployed already exists on the specified Azure virtual network, AND this subnet should be defined in Active Directory Sites and Services for the appropriate AD site in which the closest domain controllers are configured.
 
-+	To successfully deploy this template, A Storage Account with the following files listed in the this repo.  You will need the storage account blob URI, and SAS
++	To successfully deploy this template, A Storage Account with the following files listed in the this repo.  You will need the storage account blob URI, and SAS.  Upload files to storage account.
